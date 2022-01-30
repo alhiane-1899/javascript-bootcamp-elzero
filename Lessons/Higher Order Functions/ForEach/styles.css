@@ -1,0 +1,7 @@
+.tab-cntrls li {
+    cursor: pointer;
+}
+
+.active {
+    color: #f00;
+}

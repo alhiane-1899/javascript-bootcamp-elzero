@@ -1,0 +1,47 @@
+/* start basic rules */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    transition: all .2s ease-in-out;
+}
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #333333;
+}
+/* end basic rules */
+/* start popup */
+.popup {
+    position: relative;
+    width: 500px;
+    padding: 3rem 0;
+    background-color: #eee;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+.close-btn {
+    position: absolute;
+    top: -15px;
+    right: -15px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: none;
+    background-color: rgb(196, 0, 0);
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+}
+.popup-title {
+    font-size: 1.25rem;
+    letter-spacing: 2px;
+    margin-bottom: .75rem;
+}
+/* end popup */
